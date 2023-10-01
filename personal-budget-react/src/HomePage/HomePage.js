@@ -1,3 +1,6 @@
+import ChartJs from "../ChartJs/ChartJs";
+import D3Chart from "../D3Chart/D3Chart";
+
 function HomePage() {
     return (
     <main className="container center">
@@ -62,12 +65,12 @@ function HomePage() {
             </div>
             <h1>D3JS chart</h1>
             <div className="myChart1 d3class">
-
+                <D3Chart></D3Chart>
             </div>
             <div className="text-box">
                 <h1>Free</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                <ChartJs></ChartJs>
                 </p>
             </div>
 
